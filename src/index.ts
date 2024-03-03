@@ -1,1 +1,1 @@
-export * from "./components/ScrollingAnimatedCounter";
+export * from "./ScrollingAnimatedCounter";
