@@ -1,16 +1,32 @@
 {
   "name": "scrolling-animated-counter",
+  "private": false,
   "version": "1.0.0",
-  "description": "\"# react-scrolling-animated-counter\"",
+  "description": "A simple Scrolling Animated Counter for ReactJs",
   "main": "dist/index.js",
   "type": "module",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx rollup -c"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "counter animation",
+    "scrolling counter",
+    "react counter",
+    "number counter"
+  ],
+  "author": {
+    "name": "Hasanul Haque Banna",
+    "url": "https://hasanulhaquebanna.com",
+    "email": "hasanulhaquebanna@gmail.com"
+  },
+  "contributors": [],
   "license": "ISC",
+  "peerDependencies": {
+    "@types/react": ">=17.0.0",
+    "react": ">=17.0.0"
+  },
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-typescript": "^11.1.6",
