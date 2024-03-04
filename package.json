@@ -1,13 +1,17 @@
 {
   "name": "scrolling-animated-counter",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple Scrolling Animated Counter for ReactJs",
   "main": "dist/index.js",
   "type": "module",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmerbanna/scrolling-animated-counter.git"
   },
   "keywords": [
     "react",
@@ -23,6 +27,10 @@
   },
   "contributors": [],
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programmerbanna/scrolling-animated-counter/issues"
+  },
+  "homepage": "https://github.com/programmerbanna/scrolling-animated-counter#readme",
   "peerDependencies": {
     "@types/react": ">=17.0.0",
     "react": ">=17.0.0"
